@@ -56,5 +56,5 @@ coverage
 *.sw?
 
 # production
-# /www
-# /www1
+/www
+/www1
