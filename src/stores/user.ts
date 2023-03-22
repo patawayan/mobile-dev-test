@@ -10,7 +10,12 @@ export const useUserStore = defineStore('user', () => {
   const displayName = ref('')
   const photo = ref();
   const sidebarActive = ref(false);
+  const token = ref();
   // const doubleCount = computed(() => count.value * 2)
+
+  function setToken(tok:string) {
+    token.value = tok;
+  }
 
   function toggleSidebar() {
     sidebarActive.value = !sidebarActive.value;
@@ -46,9 +51,11 @@ export const useUserStore = defineStore('user', () => {
     photo,
     sidebarActive,
     displayName,
+    token,
     setLoginUser,
     setLoginUserFirebase,
     doLogout,
-    toggleSidebar
+    toggleSidebar,
+    setToken
   }
 })

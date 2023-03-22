@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "177510053627",
+    "project_id": "mobile-dev-test-a9a29",
+    "storage_bucket": "mobile-dev-test-a9a29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177510053627:android:23667ce7bb624b2ee5a25e",
+        "android_client_info": {
+          "package_name": "io.cordova.mobiledevtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177510053627-umb0let2is4v5l7ugc7fnf9b47ll2s64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwrUuO_P_EclDTYzGp9dezdZiIV0EIpFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177510053627-0nicmbvs04i7edrkpl4pv69l55k41os3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

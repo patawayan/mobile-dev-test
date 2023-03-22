@@ -6,9 +6,9 @@ import LoggedInHeader from '@/components/header/LoggedInHeader.vue'
 import SidebarMenu from './components/sidebar/SidebarMenu.vue';
 
 import { useUserStore } from '@/stores/user';
+
 const userStore = useUserStore();
 const sidebarActive = computed(() => userStore.sidebarActive);
-
 
 const {currentRoute} = useRouter();
 </script>
@@ -22,6 +22,7 @@ const {currentRoute} = useRouter();
   </template>
   <!-- <LoggedInHeader  /> -->
   <RouterView />
+  {{ userStore.token }}
 </template>
 
 <style scoped>
