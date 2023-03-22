@@ -1,0 +1,47 @@
+Exam 02 answers
+
+
+1.) 2
+every other corner gridSquare is a diagonal that is pointing to the center
+
+
+2.) 2
+first and second row has a common pattern where the first gridSquare on the left contains a small shape and every visible gridSquare to its right contains a slightly bigger version of the same shape.
+the last row starts off with a similar pattern, so we can assume the last gridSquare in that row contains a slightly bigger version of the shape in the gridSquare to it's left, which is a square.
+
+
+3.) 3
+first and second row has a common pattern of first part -> second part -> both parts stacked on top of each other
+so we can assume the first square of the last row would start with the 'first part' of the end result of 2 off centered squares placed on top of each other, the only off centered square is the 3rd choice
+
+
+4.) 4
+all rows have a similar pattern, where from left to right the mini shapes inside move to their next position.
+based on the visible squares of all 3 rows in the grid we can incur that:
+- the circle always moves from left to right, vertically placed where the circle in the first gridSquare of its row is
+- the square always moves from right to left, vertically placed where the square in its first gridSquare of its row is
+- the line is always in the center and always starts at the bottom and ends at the top
+
+assuming a gridSquare can be labeled 1st, 2nd, 3rd, 4th etc by starting the count from the upper left and moving from left to right then top to bottom, we can also incur that:
+-  all circles in an 'even' gridSquare (e.g. 2nd, 4th, 6th) are colored black
+-  all circles in an 'odd' gridSquare (e.g. 1st, 3rd, 5th) are colored white
+-  all squares in an 'even' gridSquare (e.g. 2nd, 4th, 6th) are colored white
+-  all squares in an 'odd' gridSquare (e.g. 1st, 3rd, 5th) are colored black
+
+so based on those rules we can assess that the last gridSquare in the last row contains:
+- a white circle in the right most position
+- a black square in the left most position
+- a line in the center top
+
+
+
+5.) 3
+all rows have a similar pattern, where from left to right the mini shapes inside move to their next position.
+based on the visible squares of all 3 rows in the grid we can incur that:
+- the black circle will always have a pattern of bottom right -> center right -> top right
+- the white square will always move from left to right, vertically placed where the square in the first gridSquare of its row is
+
+so based on those rules, we can assess that the last gridSquare in the last row contains:
+- a black circle in the top right
+- a white square in the top right
+
