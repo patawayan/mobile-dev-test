@@ -2,7 +2,7 @@ Exam 02 answers
 
 
 1.) 2
-every other corner gridSquare is a diagonal that is pointing to the center
+every other corner gridSquare contains a diagonal that is pointing to the center
 
 
 2.) 2
